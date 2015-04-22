@@ -29,7 +29,7 @@ thread thr2(func2);
 
 int main()
 {
-    thr1.detach(); //
+    thr1.detach();
     thr2.detach();
     gdf();
     getchar();
