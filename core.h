@@ -19,7 +19,7 @@
 namespace core
 {
 
-    unsigned int GetTimeStamp()
+    uint64_t GetTimeStamp()
     {
         struct timeval tv;
         gettimeofday(&tv, NULL);

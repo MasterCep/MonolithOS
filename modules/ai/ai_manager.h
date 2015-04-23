@@ -11,6 +11,7 @@
 #include "../../depends.h"
 #include "ai_vision.h"
 #include "ai_tasker.h"
+#include "ai_motion.h"
 
 namespace ai
 {
