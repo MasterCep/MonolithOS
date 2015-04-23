@@ -31,5 +31,4 @@ int main()
 {
     thr1.detach();
     thr2.detach();
-    gdf();
 }

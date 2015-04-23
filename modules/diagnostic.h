@@ -9,12 +9,19 @@
 
 #include "../depends.h"
 
-using namespace std;
-
 namespace checkit
 {
-    void gdf()
+    class Module
     {
-        cout << "YO" << endl;
-    }
+    public:
+        int type;
+        int pins[];
+        int status;
+        bool on;
+
+        int checkmodule()
+        {
+            return 1;
+        }
+    };
 }
