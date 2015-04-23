@@ -24,11 +24,15 @@ void func2()
     }
 }
 
-thread thr1(func1);
-thread thr2(func2);
+//thread thr1(func1);
+//thread thr2(func2);
 
 int main()
 {
-    thr1.detach();
-    thr2.detach();
+    for (int i = 0; i < 10; i++)
+    {
+    cout << getrand(1000) << endl;
+    }
+   // thr1.detach();
+   // thr2.detach();
 }

@@ -12,12 +12,14 @@
 //Modules
 #include "depends.h"
 #include "modules/diagnostic.h"
+#include "modules/ai/ai_manager.h"
+#include "modules/components/components_manager.h"
 //
 
 namespace core
 {
 
-    uint64_t GetTimeStamp()
+    unsigned int GetTimeStamp()
     {
         struct timeval tv;
         gettimeofday(&tv, NULL);
