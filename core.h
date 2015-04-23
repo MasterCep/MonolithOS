@@ -16,6 +16,7 @@
 
 namespace core
 {
+
     uint64_t GetTimeStamp()
     {
         struct timeval tv;

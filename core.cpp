@@ -12,7 +12,7 @@ void func1()
 {
     for(int i = 0; i <= 3; i++)
     {
-        cout << "2" << endl; // Быстрый рандом на микросекундах
+        cout << "2" << endl;
     }
 }
 
@@ -29,8 +29,7 @@ thread thr2(func2);
 
 int main()
 {
-    thr1.detach(); //efwf
+    thr1.detach();
     thr2.detach();
     gdf();
-    getchar();
 }
