@@ -1,3 +1,3 @@
 # MonolithOS
 
-Operating System for Rize Explorer
+Sub Operating System for Rize Explorer
